@@ -64,8 +64,6 @@ class CommentsController < ApplicationController
       format.json { head :no_content }
       format.js 
     end
-
-    
   end
 
   private
